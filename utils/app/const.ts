@@ -4,6 +4,8 @@ export const DEFAULT_SYSTEM_PROMPT =
 export const CHAT_FILES_MAX_SIZE =
     parseInt(process.env.NEXT_PUBLIC_CHAT_FILES_MAX_SIZE || '') || 0;
 
+export const NEXT_PUBLIC_CHAT_FILES_UPLOAD_PATH = process.env.NEXT_PUBLIC_CHAT_FILES_UPLOAD_PATH || 'public/uploads';
+
 export const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY
 // if (!SUPABASE_KEY) throw new Error(`Expected SUPABASE_SERVICE_ROLE_KEY`)
 
